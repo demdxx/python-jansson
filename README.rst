@@ -10,10 +10,10 @@ The module is written in pure C and works a little bit which is interpreted simp
 For example:
 ------------
 
-  try:
-      import pyjansson as simplejson
-  except ImportError:
-      import simplejson
+    try:
+        import pyjansson as simplejson
+    except ImportError:
+        import simplejson
 
-  print simplejson.dumps({'title': 'Hyperion', 'autor': 'Dan Simmons'})
+    print simplejson.dumps({'title': 'Hyperion', 'autor': 'Dan Simmons'})
 
